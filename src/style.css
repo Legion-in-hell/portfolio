@@ -542,6 +542,24 @@ button:focus {
 /* About */
 /* --------- */
 
+.tech-icons {
+  transition: opacity 0.5s ease;
+}
+
+.tech-icons:hover {
+  opacity: 0;
+}
+
+.tech-icons:hover .tech-name {
+  opacity: 1;
+}
+
+.tech-name {
+  font-size: 15px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
 .about-section {
   position: relative !important;
   padding-top: 150px !important;
