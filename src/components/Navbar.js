@@ -37,7 +37,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand className="d-flex">
           <img src={logo} className="img-fluid logo" alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle
