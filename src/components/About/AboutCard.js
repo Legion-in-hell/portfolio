@@ -12,7 +12,7 @@ function AboutCard() {
             <br />
             Actuellement en cours de formation indépendante.
             <br />
-            J'ai déjà réaliser un bons nombres de projets, que vous pouvez retrouver sur mon <a href="/projects"><span className="purple">portfolio</span></a>.
+            J'ai déjà réaliser un bons nombres de <a href="/projets"><span className="purple">projets</span></a>, que vous pouvez retrouver sur mon portfolio.
             <br />
             <br />
             Autre que coder, j'aime beaucoup aussi :
