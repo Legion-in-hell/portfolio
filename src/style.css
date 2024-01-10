@@ -23,7 +23,7 @@ button:focus {
 }
 
 /* --------- */
-/*  Preloader */
+/* Preloader */
 /* --------- */
 #preloader {
   position: fixed;
@@ -48,7 +48,7 @@ button:focus {
 }
 
 /* --------- */
-/*Scrollbar   */
+/* Scrollbar */
 /* --------- */
 
 ::-webkit-scrollbar {
@@ -73,7 +73,7 @@ button:focus {
 }
 
 /* --------- */
-/* Navbar Section  */
+/*  Navbar   */
 /* --------- */
 .sticky {
   background-color: #1b1a2ea9 !important;
@@ -206,7 +206,7 @@ button:focus {
 }
 
 /* --------- */
-/*Home section*/
+/*  Accueil  */
 /* --------- */
 
 .wave {
@@ -399,7 +399,7 @@ button:focus {
 }
 
 /* --------- */
-/* Footer */
+/*   Footer  */
 /* --------- */
 .footer {
   background-color: rgb(10, 4, 22);
@@ -442,7 +442,7 @@ button:focus {
   color: #a588c0 !important;
 }
 /* --------- */
-/* Projects */
+/*  Projets  */
 /* --------- */
 .project-section {
   position: relative !important;
@@ -539,7 +539,7 @@ button:focus {
 }
 
 /* --------- */
-/* About */
+/*  A propos  */
 /* --------- */
 
 .tech-icons {
@@ -617,7 +617,7 @@ button:focus {
   }
 }
 /* --------- */
-/* Resume */
+/*    CV     */
 /* --------- */
 
 .resume-section {
