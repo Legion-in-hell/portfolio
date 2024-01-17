@@ -35,7 +35,8 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          <strong className="purple">Les languages</strong> que j'ai déjà utilisé 
+          <strong className="purple">Les langages</strong> que j'ai déjà
+          utilisés
         </h1>
 
         <Techstack />

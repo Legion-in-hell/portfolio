@@ -12,20 +12,22 @@ function AboutCard() {
             <br />
             Actuellement en cours de formation indépendante.
             <br />
-            J'ai déjà réaliser un bons nombres de <a href="/projets"><span className="purple">projets</span></a>, que vous pouvez retrouver sur mon portfolio.
+            J'ai déjà réalisé un bon nombre de{" "}
+            <a href="/projets">
+              <span className="purple">projets</span>
+            </a>
+            , que vous pouvez retrouver sur mon portfolio.
             <br />
             <br />
             Autre que coder, j'aime beaucoup aussi :
           </p>
           <ul>
+            <li className="about-activity">🎮 Jouer à des jeux vidéo</li>
             <li className="about-activity">
-            🎮 Jouer à des jeux vidéo
+              🧑🏼‍💻 Découvrir de nouvelles technologies
             </li>
             <li className="about-activity">
-            🧑🏼‍💻 Découvrir de nouvelles technologies
-            </li>
-            <li className="about-activity">
-            🗣️ Passez du temps avec la communauté dev
+              🗣️ Passez du temps avec la communauté dev
             </li>
           </ul>
         </blockquote>

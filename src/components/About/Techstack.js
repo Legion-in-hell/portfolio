@@ -3,15 +3,11 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiMongodb,
   DiPython,
-  DiGit,
+  DiCss3,
+  DiHtml5,
 } from "react-icons/di";
-import {
-  SiFirebase,
-  SiNextdotjs,
-} from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -21,32 +17,24 @@ function Techstack() {
         <div className="tech-name">JavaScript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-        <div className="tech-name">Node.js</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiReact />
         <div className="tech-name">React</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-        <div className="tech-name">MongoDB</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
         <div className="tech-name">Next.js</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-        <div className="tech-name">Git</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-        <div className="tech-name">Firebase</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiPython />
         <div className="tech-name">Python</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+        <div className="tech-name">HTML5</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+        <div className="tech-name">CSS3</div>
       </Col>
     </Row>
   );

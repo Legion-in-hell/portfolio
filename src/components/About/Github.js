@@ -6,7 +6,7 @@ function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Les jours où j'ai <strong className="purple">coder</strong>
+        Les jours où j'ai <strong className="purple">codé</strong>
       </h1>
       <GitHubCalendar
         username="Legion-in-Hell"
