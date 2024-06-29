@@ -734,3 +734,33 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.modal-body h2 {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+.modal-body p {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+
+#close-button-modal {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+  font-size: 1.5em !important;
+  color: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.modal-footer {
+  display: none !important;
+}
+
+.footer-body-link-text {
+  color: white !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}

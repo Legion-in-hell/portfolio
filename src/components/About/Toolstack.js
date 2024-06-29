@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { SiVisualstudiocode, SiWindows, SiFirebase } from "react-icons/si";
-import { DiNodejs, DiMongodb, DiGit } from "react-icons/di";
+import { DiNodejs, DiMongodb, DiGit, DiIntellij } from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -9,6 +9,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiWindows />
         <div className="tech-name">Windows 11</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiIntellij />
+        <div className="tech-name">Intellij</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />

@@ -2,9 +2,13 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
+  DiAngularSimple,
   DiReact,
   DiPython,
   DiCss3,
+  DiMsqlServer,
+  DiJava,
+  DiPhp,
   DiHtml5,
 } from "react-icons/di";
 import { SiNextdotjs } from "react-icons/si";
@@ -19,6 +23,22 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
         <div className="tech-name">React</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMsqlServer />
+        <div className="tech-name">MySQL</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAngularSimple />
+        <div className="tech-name">Angular</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPhp />
+        <div className="tech-name">PHP</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
+        <div className="tech-name">Java</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
