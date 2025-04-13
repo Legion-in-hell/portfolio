@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "Developpeur autodidacte",
-          "En cours d'apprentissage",
+          "Developpeur Freelance",
           "Un grand passioné",
           "Contributeur Open Source",
         ],

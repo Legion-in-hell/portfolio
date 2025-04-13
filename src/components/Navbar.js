@@ -83,11 +83,12 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/cv"
+                href="https://www.malt.fr/profile/corentinrouff1"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> CV
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Me contacter
               </Nav.Link>
             </Nav.Item>
 
@@ -97,8 +98,8 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em"}} />
-                <AiFillStar style={{ fontSize: "1.1em"}} />
+                <CgGitFork style={{ fontSize: "1.2em" }} />
+                <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
           </Nav>

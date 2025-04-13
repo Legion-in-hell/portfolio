@@ -34,7 +34,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Étant très motivé à en faire mon métier futur, ma{" "}
+              Étant très motivé à en faire mon métier, ma{" "}
               <b className="purple">motivation</b> est
               <i>
                 <b className="purple"> sans limite !</b>
